@@ -6,7 +6,7 @@ public class Main {
     Context context1 = new Context(werewolf);
     Context context2 = new Context(normalform);
 
-    context1.defineAppetite(31);
-    context2.defineAppetite(31);
+    context1.defineAppetite();
+    context2.defineAppetite();
   }
 }

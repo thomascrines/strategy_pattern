@@ -1,3 +1,3 @@
 public interface Strategy {
-  public void defineAppetite(int date);
+  public void defineAppetite();
 }
