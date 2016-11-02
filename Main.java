@@ -3,10 +3,10 @@ public class Main {
     Werewolf werewolf = new Werewolf();
     NormalForm normalform = new NormalForm();
 
-    Context context1 = new Context(werewolf);
-    Context context2 = new Context(normalform);
+    Context fullMoon = new Context(werewolf);
+    Context anyOtherPhaseOfTheMoon = new Context(normalform);
 
-    context1.defineAppetite();
-    context2.defineAppetite();
+    fullMoon.defineAppetite();
+    anyOtherPhaseOfTheMoon.defineAppetite();
   }
 }
